@@ -33,7 +33,7 @@ String eleccion;
      */
     public formulario() {
         initComponents();
-        this.oracle = new ConexSql("ICF7030A", "Bogota#2O20", "PRERES", "10.244.143.63:1527");
+        this.oracle = new ConexSql("usuario", "contraseña", "base de datos", "ip:puerto");
     }
     
     
